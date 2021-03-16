@@ -11,9 +11,16 @@ export default {
   },
   plugins: [],
   module: {
-    loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loaders: ["babel"] },
-      { test: /\.css$/, loaders: ["style", "css"] },
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
 };
