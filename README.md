@@ -7,7 +7,7 @@ This is a generic JavaScript development environment that can be used to kicksta
 ## Get Started
 
 1. **Install [Latest Node](https://nodejs.org)**. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
-2. **Clone this repository.** - `git clone https://github.com/nishant-sethi/javascript-development-kit` or [download the zip](https://github.com/nishant-sethi/javascript-development-kit/archive/master.zip)
+2. **Clone this repository.** - `git clone https://github.com/nishant-sethi/javascript-development-kit` or [download the zip](https://github.com/nishant-sethi/javascript-development-kit/archive/refs/heads/main.zip)
 3. **Make sure you're in the directory you just created.** - `cd javascript-development-kit`
 4. **Install Node Packages.** - `npm install`
 5. **Run the app.** - `npm start -s`
