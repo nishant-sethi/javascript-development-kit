@@ -1,7 +1,7 @@
 export default function getBaseUrl() {
   return getQueryStringParameterByName("useMockApi")
     ? "http://localhost:3001/"
-    : "/";
+    : "https://lit-oasis-73014.herokuapp.com/";
 }
 
 const getQueryStringParameterByName = (name, url) => {
